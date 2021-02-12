@@ -15,9 +15,6 @@ set hlsearch
 " Windows用改行コード設定
 set ff=unix
 
-" ファイル末尾に改行コードを入れない
-set nofixeol
-
 " colorscheme
 colorscheme elflord
 
