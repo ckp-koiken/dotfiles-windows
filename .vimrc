@@ -4,7 +4,7 @@ syntax on
 set number
 set encoding=utf-8
 set ruler
-set cursorline
+"set cursorline
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -19,5 +19,5 @@ set ff=unix
 set nofixeol
 
 " colorscheme
-colorscheme elflord
+"colorscheme elflord
 
