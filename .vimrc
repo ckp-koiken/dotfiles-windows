@@ -19,5 +19,11 @@ set ff=unix
 set nofixeol
 
 " colorscheme
-"colorscheme elflord
+colorscheme ron 
+highlight Comment ctermfg=red
+highlight Comment cterm=BOLD
 
+" バックアップファイル出力無効(~がついたファイル)
+set nobackup
+" undoファイル出力無効(un~がついたファイル)
+set noundofile
