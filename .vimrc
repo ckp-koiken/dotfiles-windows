@@ -1,16 +1,18 @@
 " 基本設定
-
 syntax on
 set number
 set encoding=utf-8
 set ruler
 "set cursorline
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set ai
 set hlsearch
-
+set incsearch
+set t_Co=256
+set bg=dark
+set laststatus=2
 
 " Windows用改行コード設定
 set ff=unix
@@ -19,9 +21,11 @@ set ff=unix
 set nofixeol
 
 " colorscheme
-colorscheme ron 
-highlight Comment ctermfg=red
+colorscheme default 
+" colorscheme ron 
+" highlight Comment ctermfg=red
 highlight Comment cterm=BOLD
+highlight Comment ctermfg=green
 
 " バックアップファイル出力無効(~がついたファイル)
 set nobackup
