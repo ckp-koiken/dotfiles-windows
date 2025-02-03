@@ -21,8 +21,8 @@ set ff=unix
 set nofixeol
 
 " colorscheme
-colorscheme default 
-" colorscheme ron 
+" colorscheme default 
+" colorscheme industry 
 " highlight Comment ctermfg=red
 highlight Comment cterm=BOLD
 highlight Comment ctermfg=green
