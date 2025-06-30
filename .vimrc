@@ -22,7 +22,6 @@ set nofixeol
 
 " colorscheme
 " colorscheme default 
-" colorscheme ron 
 " highlight Comment ctermfg=red
 highlight Comment cterm=BOLD
 highlight Comment ctermfg=green
